@@ -1,0 +1,361 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "bootstrap-overrides.scss";
+
+
+
+.btn-login{
+  border: 1px solid transparent !important;
+  border-color: #f8f9fa !important;
+  border-radius: 3px;
+}
+.apply-form{
+  color:#000000
+}
+.icon-diamond{
+  background-image: url("../img/diamon.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-boundaries{
+  background-image: url("../img/boundaries.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-business{
+  background-image: url("../img/business.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-finacial{
+  background-image: url("../img/finacial.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-hand{
+  background-image: url("../img/hand.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-infomation{
+  background-image: url("../img/infomation.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-people{
+  background-image: url("../img/people.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-privacy{
+  background-image: url("../img/privacy.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-send{
+  background-image: url("../img/send.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+.icon-service{
+  background-image: url("../img/service.svg");
+  background-repeat: no-repeat;
+  float: left;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+}
+#services{
+  background-image: url("../img/discover1.png");
+  color:#FFFFFF;
+}
+#should{
+  position: relative;
+  height: 700px;
+  img{
+    top:20%;
+  }
+  // background-image: url("../img/credit.png");
+  // background-repeat: no-repeat;
+}
+.green{
+  color:#1fd582;
+}
+#card-bg{
+    background-image: url("../img/card.png");
+}
+.bg-dark-white{
+  background-color: #F8F8F8;
+}
+#question{
+  .list-group-item{
+    border-color: transparent;
+  }
+  .list-group-item.active{
+    background-color: transparent;
+    border-color: transparent;
+    color:#1fd582;
+
+  }
+  .card{
+    border: none;
+    .card-header{
+      background-color:transparent;
+      border-bottom:none;
+      .btn-link{
+        color:#000000;
+        font-weight: 100;
+      }
+    }
+}
+}
+#contact-us{
+  background-image: url("../img/contact-bg.png");
+  background-position: center;
+  .btn{
+    background-color: #1fd582;
+    border-radius:2px;
+    // text-transform: lowercase;
+  }
+}
+#about{
+  hr{
+    color: #1fd582;
+    max-width: 50px;
+border-width: 3px;
+border-color: #1fd582;
+  }
+  padding-top: 75px;
+  .col-lg-8{
+    padding-top: 50px;
+  }
+  img{
+    position: absolute;
+    width: 485px;
+    height: 700px;
+  }
+  h2{
+    font-family: 'Exo2-Bold';
+    font-weight: 800;
+  }
+}
+
+.register{
+/* Style the form */
+#regForm {
+  .btn-primary{
+    background-color: #1fd582;
+    border-radius: 2px;
+    border: 1px solid #1fd582;
+
+
+  }
+  .prev-btn{
+          border: 1px solid #aaa;
+  }
+  background-color: #ffffff;
+  // margin: 100px auto;
+  margin-right:0px!important;
+  margin-top:0px!important;
+  padding: 10px;
+  // width: 70%;
+  min-width: 300px;
+  .btn-secondary{
+    background-color: transparent !important;
+    text-transform: lowercase;
+    // border: 1px solid #aaa;
+
+  }
+}
+.btn-secondary{
+  color:#000000;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+
+}
+select {
+    -moz-appearance: window;
+    -webkit-appearance: none;
+    background: #f5f5f5 url("/images/arrow_down.png") right center no-repeat;
+    padding-right: 20px;
+}
+@-moz-document url-prefix() {
+.wrapper {
+     background: #f5f5f5 url("/images/arrow_down.png") right center no-repeat;
+     padding-right: 20px;
+  }
+}
+// .btn-secondary.active{
+//   background-color:
+// }
+input[type="radio"]{
+    visibility:hidden;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+}
+
+
+.money-icon{
+    background-image: url("../img/money-icon.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.money-icon.active{
+    background-image: url("../img/money-icon-active.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.service-icon{
+    background-image: url("../img/service-icon.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.service-icon.active{
+    background-image: url("../img/service-icon-active.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.insurance-icon{
+    background-image: url("../img/insurance-icon.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.insurance-icon.active{
+    background-image: url("../img/insurance-icon-active.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.other-icon{
+    background-image: url("../img/other-icon.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.other-icon.active{
+    background-image: url("../img/other-icon-active.svg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 88px;
+    width: 184px;
+    // background-size: 64px;
+
+}
+.select-type{
+  input[type="radio"]:checked{
+  display: none;
+}
+input[type="radio"]{
+display: none;
+}
+li{
+  width: 45%;
+  height: 88px;
+}
+li:nth-child(3){
+ margin-top: 5px;
+}
+  .col-lg-6{
+    padding: 0px;
+    height: 95px;
+  }
+
+}

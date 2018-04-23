@@ -1,0 +1,24 @@
+// Mixins
+@mixin transition-all() {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+@mixin background-cover() {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@mixin serif-font() {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+@mixin sans-serif-font() {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+@mixin exo2-regular() {
+font-family: 'Exo2-Regular','Helvetica Neue', Arial, sans-serif;
+}
+@mixin exo2-bold() {
+font-family: 'Exo2-Bold','Helvetica Neue', Arial, sans-serif;
+}

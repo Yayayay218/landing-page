@@ -1,10 +1,10 @@
 import React from 'react'
 
-const BirthDayStep = (props) => {
+const ApplyStep = (props) => {
     return (
         <div>
-            <h2 className="mt-3 pb-4">Would you like<br/> to sign up ?</h2>
-            <button type="button" style={{borderRadius:'6px',textTransform:'lowercase'}} className="btn btn-primary btn-lg btn-block fb-btn mt-3 mb-3"><i className="fa fa-facebook" aria-hidden="true"></i> Connect with Facebook</button>
+            <h2 className="pl-2">Would you like to sign up ?</h2>
+            <button type="button" className="btn btn-primary btn-lg btn-block fb-btn"><i class="fa fa-facebook" aria-hidden="true"></i> Connect with Facebook</button>
             <h5>
   <span>Continue as guest</span>
 </h5>
@@ -18,6 +18,7 @@ const BirthDayStep = (props) => {
                     {
                         overflow: 'auto',
                         marginTop: '20px',
+                        paddingRight: '15px',
                         paddingBottom: '15px'
                     }
                 }>
@@ -25,7 +26,7 @@ const BirthDayStep = (props) => {
                     <button
                         type="button"
                         id="prevBtn"
-                        className="btn btn-secondary prev-btn"
+                        className="btn btn-secondary prev-btn mr-2"
                         onClick={props.onGoBack}
                         style={{width: '47%', float: 'left'}}>Previous
                     </button>
@@ -34,7 +35,7 @@ const BirthDayStep = (props) => {
                         className="btn btn-primary"
                         id="nextBtn"
                         onClick={props.onGoNext}
-                        style={{float: 'right', textTransform: 'lowercase', width: '47%'}}>Next
+                        style={{float: 'left', textTransform: 'lowercase', width: '47%'}}>Next
                     </button>
                 </div>
             </div>
@@ -42,4 +43,4 @@ const BirthDayStep = (props) => {
     )
 }
 
-export default BirthDayStep
+export default ApplyStep

@@ -4,6 +4,7 @@ import SelectStep from '../Wizard/Steps/SelectStep'
 import FinanceStep from '../Wizard/Steps/FinanceStep'
 import LoginInfoStep from '../Wizard/Steps/LoginInfoStep'
 import BirthDayStep from '../Wizard/Steps/BirthDayStep'
+import ApplyStep from '../Wizard/Steps/ApplyStep'
 
 class HeroImage extends Component {
     constructor(props) {
@@ -49,7 +50,7 @@ class HeroImage extends Component {
                         onGoNext={this.doSubmit}
                     />
                 )
-            },
+            }
         ]
         return (
             <header className="masthead text-center text-white d-flex">

@@ -50,7 +50,8 @@ class SelectStep extends Component {
     render() {
         return (
             <div>
-                <p className="pl-2 text-muted">Please select:</p>
+                <h2 className="pl-3 mt-3 pb-4">Apply Now</h2>
+                <p className="pl-3 mb-0 text-muted">PLEASE SELECT</p>
                 <div className=" btn-group btn-group-toggle select-type" data-toggle="buttons">
                     <ul className="list-unstyled list-inline">
                         <li className="list-inline-item"
@@ -105,8 +106,8 @@ class SelectStep extends Component {
 
 
                 </div>
-                <p className="pl-2 text-muted">Where:</p>
-                <div className="pl-2 pr-3">
+                <p className="pl-3 mb-0 text-muted">WHERE</p>
+                <div style={{paddingLeft:'14px',paddingRight:'14px',paddingTop:'10px',paddingBottom:'30px', backgroundColor: '#f3f1f0'}}>
                     <select
                         className="custom-select"
                         defaultValue={0}

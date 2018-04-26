@@ -173,8 +173,23 @@ border-color: #1fd582;
 }
 
 .register{
+  border-radius: 6px;
+  background-color: #f3f1f0;
 /* Style the form */
+textarea{
+  background-color: #f3f1f0;
+}
 #regForm {
+  input{
+    border-radius: 6px;
+    background-color: #f3f1f0;
+  }
+    background-color: #f3f1f0;
+    p{color: #9FA3A7;font-size: 13px};
+  h2{
+    font-family: 'Exo2-Bold';
+      font-weight: 800;
+  }
   .btn-primary{
     background-color: #1fd582;
     border-radius: 2px;
@@ -185,7 +200,7 @@ border-color: #1fd582;
   .prev-btn{
           border: 1px solid #aaa;
   }
-  background-color: #ffffff;
+  // background-color: #ffffff;
   // margin: 100px auto;
   margin-right:0px!important;
   margin-top:0px!important;
@@ -347,6 +362,7 @@ input[type="radio"]{
 display: none;
 }
 li{
+  margin-left:.2rem;
   width: 45%;
   height: 88px;
 }
@@ -358,4 +374,45 @@ li:nth-child(3){
     height: 95px;
   }
 
+}
+.fb-btn{
+  background-color:#005CFF !important;
+  color:#ffffff !important;
+}
+.fb-btn:hover{
+  background-color:#005CFF !important;
+  color:#ffffff !important;
+}
+h5{
+  text-align: center;
+}
+h5 span {
+  background: #f3f1f0;
+  padding: 0 20px;
+  Text-align : Center;
+  color: #9fa3a7;
+}
+h5+* {
+  border-top: solid 1px #9FA3A7;
+  padding-top: 28px;
+  margin-top: -20px;
+}
+#selectTime{
+  .btn{
+      border: solid 1px #d8d8d8;
+  }
+.time-btn{
+  text-align: center;
+  // border: soild 1px #000000;
+  border-color: #6c757d;
+  color: #fff;
+  label{
+    width: 33%;
+
+  }
+
+  label.active{
+    background-color: #000000!important;
+  }
+}
 }

@@ -22,7 +22,6 @@ class ApplyWizard extends Component {
                 <div className="row">
                     <div className="col-lg-7 offset-lg-5 register">
                         <form id="regForm">
-                            <h2 className="pl-2">Apply Now</h2>
                             {currentStep.render({
                                 onGoBack: goBack,
                                 onGoNext: goNext,

@@ -391,6 +391,8 @@ header.masthead {
     font-weight: 800; }
 
 .register {
+  border-radius: 6px;
+  background-color: #f3f1f0;
   /* Style the form */
   /* Style the input fields */
   /* Mark input boxes that gets an error on validation: */
@@ -398,12 +400,23 @@ header.masthead {
   /* Make circles that indicate the steps of the form: */
   /* Mark the active step: */
   /* Mark the steps that are finished and valid: */ }
+  .register textarea {
+    background-color: #f3f1f0; }
   .register #regForm {
-    background-color: #ffffff;
+    background-color: #f3f1f0;
     margin-right: 0px !important;
     margin-top: 0px !important;
     padding: 10px;
     min-width: 300px; }
+    .register #regForm input {
+      border-radius: 6px;
+      background-color: #f3f1f0; }
+    .register #regForm p {
+      color: #9FA3A7;
+      font-size: 13px; }
+    .register #regForm h2 {
+      font-family: 'Exo2-Bold';
+      font-weight: 800; }
     .register #regForm .btn-primary {
       background-color: #1fd582;
       border-radius: 2px;
@@ -516,6 +529,7 @@ header.masthead {
   display: none; }
 
 .select-type li {
+  margin-left: .2rem;
   width: 45%;
   height: 88px; }
 
@@ -525,3 +539,37 @@ header.masthead {
 .select-type .col-lg-6 {
   padding: 0px;
   height: 95px; }
+
+.fb-btn {
+  background-color: #005CFF !important;
+  color: #ffffff !important; }
+
+.fb-btn:hover {
+  background-color: #005CFF !important;
+  color: #ffffff !important; }
+
+h5 {
+  text-align: center; }
+
+h5 span {
+  background: #f3f1f0;
+  padding: 0 20px;
+  Text-align: Center;
+  color: #9fa3a7; }
+
+h5 + * {
+  border-top: solid 1px #9FA3A7;
+  padding-top: 28px;
+  margin-top: -20px; }
+
+#selectTime .btn {
+  border: solid 1px #d8d8d8; }
+
+#selectTime .time-btn {
+  text-align: center;
+  border-color: #6c757d;
+  color: #fff; }
+  #selectTime .time-btn label {
+    width: 33%; }
+  #selectTime .time-btn label.active {
+    background-color: #000000 !important; }
